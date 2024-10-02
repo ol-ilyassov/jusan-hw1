@@ -21,4 +21,6 @@ jchris song.mp3
 
 ### Ответ
 
-``
+```
+ls --ignore='.' --ignore='..' -la | awk 'NR > 1 { print $3, $9 }'
+```

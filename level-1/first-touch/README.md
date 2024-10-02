@@ -20,3 +20,7 @@ singularity
 ---
 
 ### Ответ
+
+```
+touch jusan && echo 'singularity' > jusan
+```

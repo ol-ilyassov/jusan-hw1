@@ -21,3 +21,13 @@ success: true
 
 ### Ответ
 
+```
+sudo useradd -c "Serik" -s /bin/bash -m -d /home/serik -u 567 -e 2035-11-30 -k /proc -G bin,staff --user-group serik
+
+
+sudo passwd mark
+
+su -l mark
+
+touch config.txt && echo "success: true" > config.txt
+```

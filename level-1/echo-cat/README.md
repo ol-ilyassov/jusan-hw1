@@ -14,3 +14,6 @@
 
 ### Ответ
 
+```
+touch $(cat dont-open.txt)
+```

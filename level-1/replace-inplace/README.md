@@ -24,3 +24,9 @@
 ---
 
 ### Ответ
+
+```
+#!/bin/sh
+
+sed -i 's/jusan.kz/example.com/g' ./access.log
+```

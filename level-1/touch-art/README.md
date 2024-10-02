@@ -30,3 +30,15 @@ drw--w--wx. 2 box box 4096 Mar 28 08:22 d/
 
 ### Ответ
 
+```
+cd ~ && mkdir touch-art && cd touch-art
+
+touch a c e f g h 
+mkdir d 
+ln -s a b
+
+chmod 777 a b h
+chmod 603 c f
+chmod 623 d e 
+chmod 707 g
+```

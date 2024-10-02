@@ -8,3 +8,16 @@
 ---
 
 ### Ответ
+
+```
+cd ~ && ps-sort.sh
+nano ps-sort.sh
+```
+```
+#!/bin/sh
+
+ps -ef --sort=-pcpu
+```
+```
+chmod +x ps-sort.sh
+```

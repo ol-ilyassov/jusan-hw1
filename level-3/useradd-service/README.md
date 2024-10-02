@@ -26,3 +26,7 @@
 ---
 
 ### Ответ
+
+```
+sudo useradd -c "Ghost Background Service" --system --no-create-home --user-group -s /usr/sbin/nologin  ghost
+```

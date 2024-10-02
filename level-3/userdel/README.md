@@ -15,3 +15,7 @@
 ---
 
 ### Ответ
+
+```
+sudo userdel -r john
+```

@@ -30,3 +30,8 @@ tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN      
 
 ### Ответ
 
+```
+sudo netstat -tupln | grep :53
+
+# systemd-resolve
+```

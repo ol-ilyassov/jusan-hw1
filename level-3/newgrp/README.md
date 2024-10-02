@@ -37,3 +37,21 @@ $ exit
 ---
 
 ### Ответ
+
+```
+sudo useradd -c "John Cena" -m -d "/home/john" --user-group -G daemon john
+
+sudo passwd john
+
+su -l john
+
+newgrp daemon
+
+touch config-daemon.txt && echo "success: true" > config-daemon.txt
+
+newgrp john
+
+touch config-john.txt && echo "success: true" > config-daemon.txt
+
+ls -la
+```

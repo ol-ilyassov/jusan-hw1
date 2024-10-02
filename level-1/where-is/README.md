@@ -23,3 +23,8 @@
 
 ### Ответ
 
+```
+#!/bin/sh
+
+find . -type f \( -name 'j*' -o -name '*n' -o -name 'n*j]' \)
+```

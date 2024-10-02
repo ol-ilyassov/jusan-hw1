@@ -21,3 +21,21 @@
 
 ### Ответ
 
+```
+sudo groupadd kings
+
+sudo useradd -c "John Cena" -m -d "/home/john" --user-group -G kings john
+
+sudo passwd john
+
+su -l john
+
+touch config-john.txt && echo "success: true" > config-john.txt
+
+newgrp kings
+
+touch config-kings.txt && echo "success: true" > config-kings.txt
+
+ls -la
+
+```

@@ -23,4 +23,6 @@ $ ls -l
 
 ### Ответ
 
-
+```
+cd ~ && touch second && echo "touch" > second && chmod 632 second
+```

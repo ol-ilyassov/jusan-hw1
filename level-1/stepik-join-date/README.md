@@ -33,3 +33,15 @@ curl -s https://stepik.org:443/api/users/1
 
 ### Ответ
 
+```
+cd ~ && touch stepik.sh
+```
+```
+#!/bin/sh
+
+raw=$(curl -s https://stepik.org/api/users/256)
+echo "$raw" | jq '.users[0].join_date'
+```
+```
+chmod 755 stepik.sh
+```

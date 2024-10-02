@@ -23,3 +23,13 @@
 
 ### Ответ
 
+```
+mkdir -p ~/project && cd ~/project
+
+mkdir -p usecase/registration pkg/util
+touch usecase/registration/registration.go 
+touch usecase/registration/registration_test.go
+touch pkg/util/helper.go
+touch pkg/util/util_test.go
+touch pkg/util/util.go
+```

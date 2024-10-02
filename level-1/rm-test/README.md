@@ -12,3 +12,6 @@
 
 ### Ответ
 
+```
+cd ~/project && rm -rf *_test.py
+```

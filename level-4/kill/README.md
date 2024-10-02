@@ -29,4 +29,6 @@ kill -SIGKILL 35
 
 ### Ответ
 
-
+```
+kill -SIGTERM 999
+```

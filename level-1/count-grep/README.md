@@ -32,3 +32,9 @@
 ---
 
 ### Ответ
+
+``` 
+#!/bin/sh
+
+grep "jusan.kz" ./access.log | wc -l
+```

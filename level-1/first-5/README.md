@@ -24,4 +24,6 @@
 
 ### Ответ
 
-
+```
+cat ./access.log | head -n 5
+```

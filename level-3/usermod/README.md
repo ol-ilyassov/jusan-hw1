@@ -15,4 +15,8 @@
 
 ### Ответ
 
-`
+```
+sudo usermod -l marktwain mark
+
+sudo passwd marktwain
+```

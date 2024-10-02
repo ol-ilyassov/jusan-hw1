@@ -16,3 +16,8 @@ box@dec74273716e: ~ $ cat jusan | wc -l
 
 ### Ответ
 
+```
+mkdir -p ~/sandbox && cd ~/sandbox 
+
+touch jusan && echo -n "singularity" > ./jusan
+```

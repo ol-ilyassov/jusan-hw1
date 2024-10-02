@@ -24,3 +24,8 @@
 
 ### Ответ
 
+```
+#!/bin/sh
+
+cat ./access.log | tail -n 5
+```

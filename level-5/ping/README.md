@@ -27,3 +27,8 @@ round-trip min/avg/max/stddev = 80.757/115.434/171.253/33.587 ms
 
 ### Ответ
 
+```
+ping jusan.kz
+
+# Нет, 100% packet loss.
+```

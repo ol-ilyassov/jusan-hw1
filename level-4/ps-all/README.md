@@ -27,3 +27,16 @@ Linux - многозадачная операционная система. Мн
 
 ### Ответ
 
+```
+cd ~ && touch ps-all.sh
+
+nano ps-all.sh
+```
+```
+#!/bin/sh
+
+ps -ef
+```
+```
+chmod +x ps-all.sh
+```

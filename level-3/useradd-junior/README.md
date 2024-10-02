@@ -24,3 +24,9 @@
 
 ### Ответ
 
+```
+sudo useradd -c "Sara Smith" sara
+
+sudo passwd sara
+```
+

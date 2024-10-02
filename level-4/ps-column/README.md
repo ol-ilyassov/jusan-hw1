@@ -14,3 +14,16 @@
 ---
 
 ### Ответ
+
+```
+cd ~ && touch ps-column.sh
+nano ps-column.sh
+```
+```
+#!/bin/sh
+
+ps -eo pid,user,group,vsize,pcpu,cmd --sort=-pcpu
+```
+```
+chmod +x ps-column.sh
+```

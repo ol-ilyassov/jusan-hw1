@@ -32,3 +32,10 @@ ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no root@127.0.0.1 -
 
 ### Ответ
 
+```
+ssh-keygen
+
+ssh-copy-id root@127.0.0.1
+
+ssh root@127.0.0.1
+```

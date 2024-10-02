@@ -15,3 +15,9 @@
 ---
 
 ### Ответ
+
+```
+sudo apt-get update
+
+sudo apt-cache show gcc | grep Bugs
+```

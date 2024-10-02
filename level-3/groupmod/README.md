@@ -13,3 +13,7 @@
 ---
 
 ### Ответ
+
+```
+sudo groupmod -n kingdom kings
+```

@@ -16,3 +16,8 @@
 
 ### Ответ
 
+```
+sudo apt purge nginx nginx-common
+
+sudo apt autoremove
+```

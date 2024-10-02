@@ -22,3 +22,12 @@ success: true
 
 ### Ответ
 
+```
+sudo useradd -c "Murat Serik" -s "/bin/sh" -m -g "bin" murat
+
+sudo passwd murat
+
+su -l murat
+
+touch config.txt && echo "success: true" > config.txt
+```
